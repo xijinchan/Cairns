@@ -320,6 +320,12 @@ ul li {
     padding: 0 4px;
     color: #b8a74e;
     font-size: 60px; }
+  .feature h5 {
+    line-height: 3;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700; }
 
 /* ==========================================================================
 	$Works
