@@ -397,12 +397,16 @@ ul li {
 }
   .person-content {
     margin-top: 25px;
-    text-align: justify; }
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;}
     .person-image {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;}
+      /* width: 50%; */
+    }
 
   .person h4 {
     font-weight: 400;
