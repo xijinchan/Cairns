@@ -123,6 +123,9 @@ ul li {
     transition: padding 0.3s; }
   #header .logo {
     float: left; }
+  #header .logo h4{
+    color: #dbdbdb;
+  }
 
 #header.fixed {
   background-color: #b1aa80; }
@@ -297,8 +300,10 @@ ul li {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
+  .banner-text h4 {
+    color: #d6d6d6;}
   .banner-text p {
-    color: #fff;
+    color: #d6d6d6;
     font-size: 22px;
     font-weight: 300;
     line-height: 1.5;
