@@ -280,7 +280,7 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-  background-image: url(../images/banner2.jpg);
+  background-image: url(../images/banner4.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -334,7 +334,8 @@ ul li {
   -moz-box-shadow: 0 0 0 1px #fff;
   -webkit-box-shadow: 0 0 0 1px #fff;
   box-shadow: 0 0 0 1px #fff;
-  min-height: 350px;
+  /* min-height: 350px; */
+  height: 350px;
   overflow: hidden;
   position: relative;
   visibility: hidden; }
@@ -394,6 +395,18 @@ ul li {
     -ms-transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
+
+.responsive-work {
+  width: auto;
+  max-width: 767px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 
 /* ==========================================================================
 	$Teams
