@@ -47,7 +47,7 @@ h6 {
   font-size: 13px;
   font-weight: 600;
   border: 0;
-  /* width: 80%; */
+  width: 80%;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -123,10 +123,9 @@ ul li {
     transition: padding 0.3s; }
   #header .logo {
     float: left; }
-  #header .logo h4{
-    color: #dbdbdb;
-  }
-
+  #header .header-content p {
+    font-size: 22px;
+    color: #d6d6d6;}
 
 #header.fixed {
   background-color: #b1aa80; }
@@ -147,9 +146,7 @@ ul li {
 .navigation {
   float: right; }
   .navigation li {
-    display: inline-block;
-    margin-top: 15px;
-   }
+    display: inline-block; }
   .navigation a {
     color: rgba(255, 255, 255, 0.75);
     font-size: 13px;
@@ -416,6 +413,8 @@ ul li {
     right: 0;
     margin: auto;
 }
+
+.hidden {display: none;}
 
 /* ==========================================================================
 	$Teams
