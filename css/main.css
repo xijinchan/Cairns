@@ -127,6 +127,7 @@ ul li {
     color: #dbdbdb;
   }
 
+
 #header.fixed {
   background-color: #b1aa80; }
   #header.fixed .header-content {
@@ -146,7 +147,9 @@ ul li {
 .navigation {
   float: right; }
   .navigation li {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 15px;
+   }
   .navigation a {
     color: rgba(255, 255, 255, 0.75);
     font-size: 13px;
@@ -413,8 +416,6 @@ ul li {
     right: 0;
     margin: auto;
 }
-
-.hidden {display: none;}
 
 /* ==========================================================================
 	$Teams
