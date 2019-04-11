@@ -330,9 +330,9 @@
     //   false             - do nothing
 
     // Clicked on the content
-    clickContent: function (current, event) {
-      return current.type === "image" ? "zoom" : false;
-    },
+    // clickContent: function (current, event) {
+    //   return current.type === "image" ? "zoom" : false;
+    // },
 
     // Clicked on the slide
     clickSlide: "close",
