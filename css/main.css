@@ -126,6 +126,10 @@ ul li {
   #header .header-content p {
     font-size: 22px;
     color: #d6d6d6;}
+    #header .header-content h4 {
+      font-size: 22px;
+      color: #d6d6d6;
+      padding-left: 14px;}
 
 #header.fixed {
   background-color: #b1aa80; }
@@ -133,7 +137,7 @@ ul li {
     border-bottom: 0;
     padding: 25px 0; }
   #header.fixed .nav-toggle {
-    top: 18px; }
+    top: 8px; }
 
 .navigation.open {
   opacity: 0.9;
@@ -163,7 +167,7 @@ ul li {
   position: fixed;
   right: 5%;
   text-indent: 100%;
-  top: 32px;
+  top: 20px;
   white-space: nowrap;
   width: 44px;
   z-index: 99999;
@@ -301,7 +305,11 @@ ul li {
     font-weight: 700;
     text-transform: uppercase; }
   .banner-text h4 {
-    color: #d6d6d6;}
+    color: #d6d6d6;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 80px; }
   .banner-text p {
     color: #d6d6d6;
     font-size: 22px;
