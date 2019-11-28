@@ -17,7 +17,7 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 	$('.download').waypoint(function() {
-		$('.download .btn').addClass('animated tada');
+		// $('.download .btn').addClass('animated flash');
 	}, {
 		offset: '75%'
 	});

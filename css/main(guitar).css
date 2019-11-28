@@ -96,6 +96,15 @@ ul li {
   margin-right: auto;
 }
 
+.responsive2 {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section {
   padding: 100px 0;
   background-color: #33322e;
