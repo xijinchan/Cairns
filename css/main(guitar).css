@@ -63,8 +63,8 @@ h6 {
 /* ==========================================================================
 	General Styles
 ========================================================================== */
-a {
-  color: #e84545; }
+/* a {
+  color: #e84545; } */
 
 a:hover, a:focus {
   text-decoration: none;
@@ -124,6 +124,11 @@ ul li {
 
 .paddingTeams {
     padding: 25px 0 50px 0;
+    background-color: #33322e;
+}
+
+.paddingTermine {
+    padding: 25px 0 0px 0;
     background-color: #33322e;
 }
 
@@ -475,6 +480,20 @@ ul li {
     margin-left: auto;
     margin-right: auto;
     /* text-align: justify; */
+  }
+
+  .termine-content {
+    margin-top: 25px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: justify; */
+  }
+
+  .container-fluid {
+    padding: 15px;
+}
+
   }
     .person-image {
       display: block;
