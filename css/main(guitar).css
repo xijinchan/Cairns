@@ -487,12 +487,12 @@ ul li {
     width: 270px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
     /* text-align: justify; */
   }
 
-  .container-fluid {
-    padding: 15px;
-}
+
 
   }
     .person-image {
